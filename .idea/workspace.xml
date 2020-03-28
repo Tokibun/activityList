@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10a8b5ea-19d9-4904-adce-a316d31f9f5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Activitites.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ActivityItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AddActivity.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/About.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Activitites.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Activitites.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ActivityItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ActivityItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/header.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,8 +56,16 @@
       <option name="presentableId" value="Default" />
       <updated>1585318556300</updated>
       <workItem from="1585318557683" duration="148000" />
-      <workItem from="1585318716820" duration="17821000" />
+      <workItem from="1585318716820" duration="21428000" />
     </task>
+    <task id="LOCAL-00001" summary="Created basic layout of the page. Add activity function.">
+      <created>1585422428277</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585422428277</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,5 +81,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created basic layout of the page. Add activity function." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created basic layout of the page. Add activity function." />
   </component>
 </project>

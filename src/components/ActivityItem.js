@@ -6,13 +6,13 @@ class ActivityItem extends Component{
         return{
             padding: '10px',
             borderBottom: '1px #ccc dotted',
-            backgroundColor: this.props.activity.completed ? '#ccffd9' : '#ccffff'
+            backgroundColor: this.props.activities.completed ? '#ccffd9' : '#ccffff'
         }
 
     }
 
     render(){
-        const { id, title } = this.props.activity;
+        const { id, title } = this.props.activities;
         return(
             <div style={this.getStyle()}>
                 <p>

@@ -1,10 +1,12 @@
 import React, {Component} from 'react';
-import Activitites from './components/Activitites';
+import { BrowserRouter as Router, Route} from 'react-router-dom';
+import Activities from './components/Activitites';
 import Header from './components/layout/header';
 import AddActivity from "./components/AddActivity";
-import './App.css';
 import {v4 as uuidv4} from 'uuid';
+import About from './components/pages/About';
 
+import './App.css';
 class App extends Component {
     state = {
         activities: [
@@ -51,13 +53,19 @@ class App extends Component {
     }
     render() {
         return (
-            <div className="App">
-                <div className="container">
-                    <Header />
-                    <AddActivity addActivity={this.addActivity}/>
-                    {/*Bringing Activity component and also bringing in activity state has prop*/}
-                    <Activitites activities={this.state.activities} markComplete={this.markComplete} delAct={this.delAct}/>
-                </div>
+            <Router>
+                <div className="App">
+                    <div className="container">
+                        <Header />
+                        <Route exact path="/" render={props => (
+                            <React.Fragment>
+                                <AddActivity addActivity={this.addActivity}/>
+                                {/*Bringing Activity component and also bringing in activity state has prop*/}
+                                <Activities activities={this.state.activities} markComplete={this.markComplete} delAct={this.delAct}/>
+                            </React.Fragment>
+                        )} />
+                        <Route path="/about" component={About}/>
+                    </div>
                 {/*<header className="App-header">*/}
                 {/*    <img src={logo} className="App-logo" alt="logo"/>*/}
                 {/*    <p>*/}
@@ -72,7 +80,8 @@ class App extends Component {
                 {/*        Learn React*/}
                 {/*    </a>*/}
                 {/*</header>*/}
-            </div>
+                </div>
+            </Router>
         )
             ;
     }

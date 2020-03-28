@@ -5,8 +5,8 @@ import PropTypes from 'prop-types';
 class Activitites extends Component{
     render(){
         return(
-            this.props.activities.map((activity) => (
-                <ActivityItem key={activity.id} activity={activity}
+            this.props.activities.map((activities) => (
+                <ActivityItem key={activities.id} activities={activities}
                               markComplete={this.props.markComplete}
                               delAct={this.props.delAct}/>
             ))
